@@ -1,0 +1,78 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+
+}
+
+.loginContainer{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    box-shadow: 1px 1px 19px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 19px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 19px 1px rgba(0,0,0,0.75);
+}
+
+.loginContainer .left{
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+
+}
+.loginContainer .right{
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    color: white;
+
+}
+.loginContainer .right .hText{
+    font-weight: 600;
+}
+.loginContainer .right .text, .hText{
+    color: black;
+}
+.email, .password{
+    height: 30px;
+    width: 70%;
+    background-color: rgb(206, 236, 247);
+    border: none;
+}
+.email{
+    margin-bottom: 10px;
+}
+.btnSignIn{
+    width: 130px;
+    height: 50px;
+    border-radius: 40px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    border: none;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+.btnSignUp{
+    width: 130px;
+    height: 50px;
+    border-radius: 40px;
+    margin-top: 70px;
+    border: rgb(0, 0, 0) solid 2px;
+    background-color: none;
+    cursor: pointer;
+    color: black;
+
+}
